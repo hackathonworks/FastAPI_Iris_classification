@@ -6,7 +6,6 @@ from iris import iris
 import pickle
 #import pandas as pd
 # 2. Create the app object
-some_file_path='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Iris_pallida_Variegata_1zz.jpg/800px-Iris_pallida_Variegata_1zz.jpg'
 app = FastAPI()
 pickle_in = open("classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
