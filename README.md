@@ -16,6 +16,8 @@
 #step 4: type cd <working directory> in the conda prompt
 
 
-#step 5: uvicorn app:app --reload
+#step 5: type uvicorn app:app --reload
+  
+# app gets hosted in http://127.0.0.1:8000/docs 
 
 
