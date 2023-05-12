@@ -1,3 +1,5 @@
+This is an app created to perform classification on the iris flower dataset. We implemented a fast api based request handler by deploying the code in a web server. 
+
 # FastAPI
 #api_implementation.py 
 
